@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GurjinderSingh_FireGame", "GurjinderSingh_FireGame\GurjinderSingh_FireGame.csproj", "{73A9DEA6-796F-4891-9484-6368032A76C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GurjinderSingh_FireGameTests", "GurjinderSingh_FireGameTests\GurjinderSingh_FireGameTests.csproj", "{6999DBBF-13B7-42CF-9BBA-078EF6A06B25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73A9DEA6-796F-4891-9484-6368032A76C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A9DEA6-796F-4891-9484-6368032A76C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A9DEA6-796F-4891-9484-6368032A76C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A9DEA6-796F-4891-9484-6368032A76C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6999DBBF-13B7-42CF-9BBA-078EF6A06B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6999DBBF-13B7-42CF-9BBA-078EF6A06B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6999DBBF-13B7-42CF-9BBA-078EF6A06B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6999DBBF-13B7-42CF-9BBA-078EF6A06B25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEC02158-3B89-4B74-967F-612312E64171}
+	EndGlobalSection
+EndGlobal
