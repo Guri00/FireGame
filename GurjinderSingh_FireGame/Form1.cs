@@ -36,7 +36,7 @@ namespace GurjinderSingh_FireGame
         {
             // starting the game of the fire 
             trigger++;
-            pb.Image = Properties.Resources.new1;
+            pb.Image = Resource1.new1;
             button1.Enabled = false;
         }
 
@@ -44,7 +44,7 @@ namespace GurjinderSingh_FireGame
         {
             // code for loading the bullet in the gun
             trigger++;
-            pb.Image = Properties.Resources.new2;
+            pb.Image = Resource1.new2;
             button2.Enabled = false;
 
         }
@@ -61,7 +61,7 @@ namespace GurjinderSingh_FireGame
                 clk2++;
                 if (clk2==fire) {
                     // generate the sound of the  fire trigger 
-                    System.Media.SoundPlayer player = new System.Media.SoundPlayer("fire.wav");
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(Resource1.fire);
                     player.Play();
                     chance1++;
                     // when the user used his 2 bullets then show the message box and change the color of label 
@@ -122,7 +122,7 @@ namespace GurjinderSingh_FireGame
         {
             // code to spin the bullet for fire for better perfomrance like shoot 
             trigger++;
-            pb.Image = Properties.Resources.new3;
+            pb.Image = Resource1.new3;
             button3.Enabled = false;
         }
 
@@ -135,7 +135,7 @@ namespace GurjinderSingh_FireGame
                 if (clk==fire) {
 
                     // generate the sound of the  fire trigger 
-                    System.Media.SoundPlayer player = new System.Media.SoundPlayer("fire.wav");
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(Resource1.fire);
                     player.Play();
 
                     // when the user used his 2 bullets then show the message box and change the color of label 
