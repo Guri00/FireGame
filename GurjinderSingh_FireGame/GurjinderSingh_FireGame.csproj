@@ -106,5 +106,20 @@
   <ItemGroup>
     <None Include="bin\Debug\fire.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

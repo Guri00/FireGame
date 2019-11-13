@@ -189,7 +189,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::GurjinderSingh_FireGame.Properties.Resources.new4;
+            this.pictureBox1.Image = global::GurjinderSingh_FireGame.Resource1.new4;
             this.pictureBox1.Location = new System.Drawing.Point(5, 66);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(122, 156);
